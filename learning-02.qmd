@@ -11,15 +11,31 @@ Learning reflections are part of your weekly homework and have a weight of 20% o
 
 # Lecture
 
-<!--# Add your reflections on the lecture of this week here -->
-
 # Homework Assignment
 
-<!--# Add your reflections on the homework programming assignment here -->
+From the homework assignment i learned to self navigate github, while following the instuctions i was able to notice the chage in the data, the manipulations or rather mutations (tidying and tranforming data).
 
-# Readings
+New things learned;
 
-<!--# Add your reflections on the required readings here -->
+mutate()
+
+Creates new columns based on existing ones ,Keeps the original data frame structure and Can add multiple new columns at once
+
+aes()
+
+stands for aesthetics, and it’s a key function used to map variables to visual properties of a plot like x and y axes, color, size, shape, etc.
+
+labs()
+
+is short for labels It is used in ploting to add or customize titles, Axis labels (x and y)
+
+Selecting and renaming tidying
+
+# Reading Assignment
+
+The finedtroduction to R for data science gave a clear overview of what the field of data science involves and how R can be a powerful tool. I appreciate how the authors break down the data science workflow into practical steps importing, tidying, transforming, visualizing, modeling, and communicating making it feel more manageable. Gave more insight after practice of the homework gave more clear understanding of the concepts.
+
+One key takeaway was how essential it is to have tidy data; the idea that a consistent format helps you focus on asking meaningful questions. Like in the homework assignment we had to select some data from the large dataset, rename it , the also finally transform it. This eventually helps with the visualization, so you have to think ahead what would i want to derive or represent with this data.
 
 # Submit learning reflections
 
