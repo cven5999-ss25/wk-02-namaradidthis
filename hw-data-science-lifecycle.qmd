@@ -16,9 +16,7 @@ This homework assignment is designed as a guided walkthrough of the data science
 
 As you work through each task, carefully read the step-by-step instructions and identify the corresponding elements in the provided code. This format will help you understand how I will describe coding tasks in future exercises, so pay attention to how each step connects to specific parts of the code.
 
-Your main objectives are to:
-- Run each code chunk and ensure it executes without errors
-- Verify that each step produces the expected results  
+Your main objectives are to: - Run each code chunk and ensure it executes without errors - Verify that each step produces the expected results\
 - Understand the connection between the task descriptions and the code implementation
 
 # Task 0: Load R packages
@@ -49,7 +47,7 @@ library(here)
 **Note:** You will learn more about the use of the `here()` function when we look at data import in more detail.
 
 ```{r}
-global_waste_data <- read_csv(here("wk-02/data/country_level_data_0.csv"))
+global_waste_data <- read_csv(here("data/country_level_data_0.csv"))
 ```
 
 # Task 2: Data tidying (and some transformation)
@@ -94,7 +92,7 @@ global_waste_data_small <- global_waste_data |>
 
 4.  Describe in your own words what the `mutate()` function does in this code-chunk
 
-<!--# Remove this comment and write your text here -->
+The function mutate() has leveled the Income Id in 4 levels from highghest to lowest, while also combats the waste from total waste per year to per capita.
 
 ```{r}
 global_waste_data_kg_year <- global_waste_data_small |> 
@@ -122,15 +120,15 @@ global_waste_data_kg_year <- global_waste_data_small |>
 
 4.  Look at the plot that you created and describe what the `mutate()` function achieved in the previous task
 
-<!--# Remove this comment and write your text here -->
+The mutate manupulated the capita kg/yr and the income Id arranged in hierarchy.
 
 5.  Describe in your own words what the 'color' argument inside the `aes()` does
 
-<!--# Remove this comment and write your text here -->
+aes() manipulated the color of the diffent income levels.
 
 6.  Describe in your own words what the `labs()` function does
 
-<!--# Remove this comment and write your text here -->
+labs() is displaying the axis names.
 
 ```{r}
 ggplot(data = global_waste_data_kg_year,
